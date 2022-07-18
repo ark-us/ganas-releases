@@ -23,7 +23,7 @@
 			<key>entitlements</key>
 			<dict>
 				<key>application-identifier</key>
-				<string>V7PV7RTR86.org.kuip.ganas</string>
+				<string>V7PV7RTR86.uk.co.kuip.ganas</string>
 				<key>com.apple.developer.team-identifier</key>
 				<string>V7PV7RTR86</string>
 				<key>get-task-allow</key>
@@ -34,11 +34,11 @@
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>32291482-c8da-457f-b792-d5454b40611c</string>
+				<string>fa71d6ba-8515-4fa0-b3a9-a55cc5787b57</string>
 				<key>dateExpires</key>
 				<string>7/18/23</string>
 				<key>name</key>
-				<string>iOS Team Ad Hoc Provisioning Profile: org.kuip.ganas</string>
+				<string>iOS Team Ad Hoc Provisioning Profile: uk.co.kuip.ganas</string>
 			</dict>
 			<key>team</key>
 			<dict>
