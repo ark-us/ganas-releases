@@ -1,0 +1,80 @@
+{
+    "type": "Item",
+    "props": {
+        "hasNavArrow": true,
+        "title": "demos",
+        "submenu": [
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": false,
+                    "title": "ide - new mark",
+                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
+                        "url": "https://marks.provable.dev/?m=e"
+                    }]}
+                }
+            },
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": false,
+                    "title": "device sensors",
+                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
+                        "url": "https://ctzurcanu.github.io/mapps"
+                    }]}
+                }
+            },
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": false,
+                    "title": "record audio",
+                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
+                        "url": "https://mark.provable.dev/?ipfs=QmbCmVnFfzQxvwYX6ghvgPihd4eewPPxxhrKq3qTxd8br6&m=p"
+                    }]}
+                }
+            },
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": false,
+                    "title": "simple storage mark (rinkeby)",
+                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
+                        "url": "https://marks.provable.dev/?content=%3A%3A%3Acenter%0A%23%20Simple%20Store%20dApp%0A%3A%3A%3A%0A%0A%3Cgetvalue%3A(react-Contract%20%7B%0A%20%20%22name%22%20%22StorageContract%22%0A%20%20%22function%22%20%22retrieve%22%0A%20%20%22showbtn%22%20true%0A%7D)%3E%0A%0A%0A%3Csetvalue%3A(react-Contract%20%7B%0A%20%20%22name%22%20%22StorageContract%22%0A%20%20%22function%22%20%22store%22%0A%20%20%22showbtn%22%20true%0A%7D)%3E%0A%0A&contracts=%5B%7B%22name%22%3A%22StorageContract%22%2C%22address%22%3A%220xDc567766065267e2248631c9E8E12fABD52ab3FA%22%2C%22ipfs%22%3A%22QmdPL5pB5UvcNiCRg99rs8vab3n69pT1G8bo5PibgGVWw8%22%2C%22abi%22%3A%5B%7B%22inputs%22%3A%5B%7B%22internalType%22%3A%22uint256%22%2C%22name%22%3A%22num%22%2C%22type%22%3A%22uint256%22%7D%5D%2C%22name%22%3A%22store%22%2C%22outputs%22%3A%5B%5D%2C%22stateMutability%22%3A%22nonpayable%22%2C%22type%22%3A%22function%22%7D%2C%7B%22inputs%22%3A%5B%5D%2C%22name%22%3A%22retrieve%22%2C%22outputs%22%3A%5B%7B%22internalType%22%3A%22uint256%22%2C%22name%22%3A%22%22%2C%22type%22%3A%22uint256%22%7D%5D%2C%22stateMutability%22%3A%22view%22%2C%22type%22%3A%22function%22%7D%5D%7D%5D&chain=4&m=p"
+                    }]}
+                }
+            },
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": false,
+                    "title": "uniswap",
+                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
+                        "url": "https://app.uniswap.org/"
+                    }]}
+                }
+            },
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": false,
+                    "title": "The Laurel Project - volunteer effort registration",
+                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
+                        "url": "https://marks.provable.dev/?ipfs=QmUkAB1S1EtQczJH4mryYNkLyTGWNzkLTiw9Fv1WhrsG5S"
+                    }]}
+                }
+            },
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": true,
+                    "title": "somefolder",
+                    "submenu": [
+                    ],
+                    "onPress": {"type": "function", "subtype": "navigation.push", "args": ["MenuPage", {}]}
+                }
+            }
+        ],
+        "onPress": {"type": "function", "subtype": "navigation.push", "args": ["MenuPage", {}]}
+    }
+}
