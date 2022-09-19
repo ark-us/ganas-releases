@@ -18,16 +18,6 @@
                 "type": "Item",
                 "props": {
                     "hasNavArrow": false,
-                    "title": "cosmos chains operations",
-                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
-                        "url": "https://mark.provable.dev/?ipfs=QmNYQPpWmmQwa6zTabqTDxc1Ng7CDKKqt5rofti9mjphnd&m=p"
-                    }]}
-                }
-            },
-            {
-                "type": "Item",
-                "props": {
-                    "hasNavArrow": false,
                     "title": "device sensors",
                     "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
                         "url": "https://ctzurcanu.github.io/mapps"
