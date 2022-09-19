@@ -1,0 +1,80 @@
+{
+    "type": "Item",
+    "props": {
+        "hasNavArrow": true,
+        "title": "demos",
+        "submenu": [
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": false,
+                    "title": "ide - new mark",
+                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
+                        "url": "https://mark.provable.dev/?m=e"
+                    }]}
+                }
+            },
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": false,
+                    "title": "cosmos chains operations",
+                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
+                        "url": "https://mark.provable.dev/?ipfs=Qmf3eEXzVAxhxawGMLBVqR2AbZQGdXGDXyH9sWgwo8daTY&m=p"
+                    }]}
+                }
+            },
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": false,
+                    "title": "device sensors",
+                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
+                        "url": "https://ctzurcanu.github.io/mapps"
+                    }]}
+                }
+            },
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": false,
+                    "title": "record audio",
+                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
+                        "url": "https://mark.provable.dev/?ipfs=QmbCmVnFfzQxvwYX6ghvgPihd4eewPPxxhrKq3qTxd8br6&m=p"
+                    }]}
+                }
+            },
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": false,
+                    "title": "simple storage mark (rinkeby)",
+                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
+                        "url": "https://mark.provable.dev/?ipfs=QmQJWGTaYtSMbE1iw1LyMQQnn1UeayMgbuifU97PVEQ3Lt&m=p"
+                    }]}
+                }
+            },
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": false,
+                    "title": "uniswap",
+                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
+                        "url": "https://app.uniswap.org/"
+                    }]}
+                }
+            },
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": false,
+                    "title": "The Laurel Project - volunteer effort registration",
+                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
+                        "url": "https://marks.provable.dev/?ipfs=QmUkAB1S1EtQczJH4mryYNkLyTGWNzkLTiw9Fv1WhrsG5S"
+                    }]}
+                }
+            }
+        ],
+        "onPress": {"type": "function", "subtype": "navigation.push", "args": ["MenuPage", {}]}
+    }
+}
