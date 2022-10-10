@@ -38,7 +38,7 @@
                 "type": "Item",
                 "props": {
                     "hasNavArrow": false,
-                    "title": "device sensors",
+                    "title": "mobile apps",
                     "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
                         "url": "https://ctzurcanu.github.io/mapps"
                     }]}
