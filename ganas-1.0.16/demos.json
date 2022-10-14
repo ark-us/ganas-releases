@@ -28,6 +28,16 @@
                 "type": "Item",
                 "props": {
                     "hasNavArrow": false,
+                    "title": "cosmos chains governance",
+                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
+                        "url": "https://mark.provable.dev/?ipfs=QmUn26pdpF1VDzC4H96bcWsnuEyEsMrZi3z6PWcXxxWbV4&m=p"
+                    }]}
+                }
+            },
+            {
+                "type": "Item",
+                "props": {
+                    "hasNavArrow": false,
                     "title": "qrcode scan",
                     "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
                         "url": "https://mark.provable.dev/?ipfs=Qmc3xw5NESwtFvYc1M6D4edLJmbrsKqHCYGD8nkPESgfcu&m=p"
