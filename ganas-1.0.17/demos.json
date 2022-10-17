@@ -68,9 +68,9 @@
                 "type": "Item",
                 "props": {
                     "hasNavArrow": false,
-                    "title": "simple storage mark (rinkeby)",
+                    "title": "simple storage mark (goerli)",
                     "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
-                        "url": "https://mark.provable.dev/?ipfs=QmQJWGTaYtSMbE1iw1LyMQQnn1UeayMgbuifU97PVEQ3Lt&m=p"
+                        "url": "https://mark.provable.dev/?ipfs=QmQ4yo97Vwbx5MbXmCerPkEH4amQ3eu8CG5eGfo9RwLYKU&m=p"
                     }]}
                 }
             },
@@ -88,7 +88,7 @@
                 "type": "Item",
                 "props": {
                     "hasNavArrow": false,
-                    "title": "The Laurel Project - volunteer effort registration",
+                    "title": "The Laurel Project - volunteer effort registration (rinkeby)",
                     "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
                         "url": "https://marks.provable.dev/?ipfs=QmUkAB1S1EtQczJH4mryYNkLyTGWNzkLTiw9Fv1WhrsG5S"
                     }]}
