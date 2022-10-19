@@ -83,16 +83,6 @@
                         "url": "https://app.uniswap.org/"
                     }]}
                 }
-            },
-            {
-                "type": "Item",
-                "props": {
-                    "hasNavArrow": false,
-                    "title": "The Laurel Project - volunteer effort registration (rinkeby)",
-                    "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
-                        "url": "https://marks.provable.dev/?ipfs=QmUkAB1S1EtQczJH4mryYNkLyTGWNzkLTiw9Fv1WhrsG5S"
-                    }]}
-                }
             }
         ],
         "onPress": {"type": "function", "subtype": "navigation.push", "args": ["MenuPage", {}]}
