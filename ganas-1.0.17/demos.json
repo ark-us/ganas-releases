@@ -20,7 +20,7 @@
                     "hasNavArrow": false,
                     "title": "cosmos chains operations",
                     "onPress": {"type": "function", "subtype": "navigation.navigate", "args": ["BrowserPage", {
-                        "url": "https://mark.provable.dev/?ipfs=QmeJxVCNdCjhNuTZBcRkjxYG8JNanWAcow2Yw5R7GkCNUD&m=p"
+                        "url": "https://mark.provable.dev/?ipfs=QmVvHjsJ3bdo7gWMbdwTFBPsuRUb1W6GDpjq3B5VHCAC4b&m=p"
                     }]}
                 }
             },
